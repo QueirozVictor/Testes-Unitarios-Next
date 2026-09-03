@@ -4,7 +4,7 @@ import { Tarefa } from "@/app/types/Tarefa"
 import { useState } from "react";
 import { NovaTarefa } from "../NovaTarefa/NovaTarefa";
 import { ListaTarefa } from "../ListaTarefa/ListaTarefa";
-import { useContadorDeTarefas } from "@/app/hooks/useContadorDeTarfeas";
+import { useContadorDeTarefas } from "@/app/hooks/useContadorDeTarefas";
 
 type Props = {
     tarefasIniciais: Tarefa[];

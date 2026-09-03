@@ -1,5 +1,5 @@
 import { renderHook } from "@testing-library/react";
-import { useContadorDeTarefas } from "./useContadorDeTarfeas";
+import { useContadorDeTarefas } from "./useContadorDeTarefas";
 
 test("Retorna a quantidade correta de tarefas", () => {
     const tarefas = [
