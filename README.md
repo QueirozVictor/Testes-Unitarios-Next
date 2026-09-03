@@ -24,36 +24,37 @@ A aplicação permite visualizar tarefas cadastradas e adicionar novas tarefas a
 
 ## 📁 Estrutura do projeto
 
-    projeto/
-├── app/
-│   ├── components/
-│   │   ├── ListaTarefa/
-│   │   │   ├── ListaTarefa.tsx
-│   │   │   └── ListaTarefa.test.tsx
-│   │   │
-│   │   ├── NovaTarefa/
-│   │   │   ├── NovaTarefa.tsx
-│   │   │   └── NovaTarefa.test.tsx
-│   │   │
-│   │   └── Tarefa/
-│   │       └── Tarefa.tsx
+```text
+app/
+├── components/
+│   ├── ListaTarefa/
+│   │   ├── ListaTarefa.tsx
+│   │   └── ListaTarefa.test.tsx
 │   │
-│   ├── data/
-│   │   └── Tarefas.ts
+│   ├── NovaTarefa/
+│   │   ├── NovaTarefa.tsx
+│   │   └── NovaTarefa.test.tsx
 │   │
-│   ├── hooks/
-│   │   ├── useContadorDeTarefas.ts
-│   │   └── useContadorDeTarefas.test.ts
-│   │
-│   ├── types/
-│   │   └── Tarefa.ts
-│   │
-│   ├── page.tsx
-│   └── page.test.tsx
+│   └── Tarefa/
+│       └── Tarefa.tsx
 │
-├── jest.config.ts
-├── package.json
-└── README.md
+├── data/
+│   └── Tarefas.ts
+│
+├── hooks/
+│   ├── useContadorDeTarefas.ts
+│   └── useContadorDeTarefas.test.ts
+│
+├── types/
+│   └── Tarefa.ts
+│
+├── page.tsx
+└── page.test.tsx
+
+jest.config.ts
+package.json
+README.md
+```
 
 ## 🧩 Funcionamento
 
