@@ -1,7 +1,6 @@
 import "@testing-library/jest-dom";
 import { render, screen, fireEvent } from "@testing-library/react";
 import { NovaTarefa } from "./NovaTarefa";
-import { traceGlobals } from "next/dist/trace/shared";
 
 test("Renderiza os campos e o botão corretamente", () => {
     render(<NovaTarefa tarefa={() => {}} />);
@@ -35,7 +34,12 @@ test("Adiciona uma nova tarefa corretamente", () => {
         screen.getByRole("button", { name: "Adicionar tarefa" })
     );
 
-    expect(tarefaMock).toHaveBeenCalled();
+    expect(tarefaMock).toHaveBeenCalledWith(
+        expect.objectContaining({
+            categoria: "Estudos",
+            descricao: "Estudar React",
+        })
+    );
 });
 
 test("Não adiciona tarefa com campos vazios", () => {
