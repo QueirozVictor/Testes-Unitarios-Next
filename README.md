@@ -4,7 +4,7 @@ Projeto desenvolvido como exercício prático de testes unitários com Next.js, 
 
 A aplicação permite visualizar tarefas cadastradas e adicionar novas tarefas através de um formulário.
 
-## 📸 Preview
+## 📸 Prévia
 
 ![Lista de Tarefas](./public/previa.png)
 
