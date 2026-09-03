@@ -5,8 +5,8 @@ export default async function Home() {
   const tarefas = await buscarTarefas();
 
   return (
-   <div>
-    <Tarefas tarefasIniciais={tarefas}/>
-   </div>
+    <div>
+      <Tarefas tarefasIniciais={tarefas} />
+    </div>
   );
 }
